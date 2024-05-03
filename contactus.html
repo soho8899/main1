@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Simple Homemade Food</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/png" href="images/icon.png">
+	<script src="js/script.js"></script>
+  </head>
+
+
+
+
+<body>
+<div id="wrapper"> 
+
+<!-- Header Section -->
+<header>
+
+
+<h1>
+Welcome to SimPLe Homemade Food!
+</h1>
+
+
+
+
+<section class="logo">
+<h2>
+SPLH.com.au &nbsp;
+</h2>
+	<!-- <img src="images/logo2.jpg" alt="logo" > -->
+	
+</section>
+
+
+</header>
+
+<!-- Nav Section -->
+<nav class="navbar">
+
+<ul class="nodropdown">
+	<li><a href="index.html">&nbsp;Home</a> </li>
+	<li><a href="rooms.html">Rooms</a></li>
+	<li><a href="about.html">About Us</a></li>
+	<li><a href="contactus.html">Contact Us </a></li>
+	
+</ul>
+
+
+<!--dropmenu-->
+
+<section class="dropdown">
+		<button class="dropbtn">&nbsp;Menu</button>
+		<section class="dropdown-content">
+		<a href="index.html">Home</a>
+		<a href="rooms.html">Rooms</a>
+		<a href="about.html">About Us</a>
+		<a href="contactus.html">Contact Us </a>
+		
+		</section>
+		
+		
+</section>
+
+</nav>
+
+<!-- Main About contact_post.php-->
+
+
+<main>
+
+
+<br><br><br>
+<h2>Contact Us</h2>
+<br><br><br>
+
+<article class="container1">
+<section class="contact">
+<form id="contactform" name="contactform" onsubmit="return validateform()" action="contact_post.php" method="post">
+<fieldset>
+<legend></legend>
+<br>
+<br>
+<br>
+
+<p> Email: 20067026@tafe.wa.edu.au</p>
+<br>
+<p> Telephone: 0123456789 </p>
+	<br>
+	<p> Alternatively, please fill out the form with 
+		your name, email, company details and we will get back to you shortly.</p>
+
+		<br>
+		<ul>
+		<li>
+        <!-- <label> for="name">Name: </label> for accessibility -->
+		<label for="firstname"></label><h3>First Name: </h3>
+        <input type="text" id="firstname" name="firstname" placeholder="First Name">
+        </li>
+		
+		<li>
+		<label for="lastname"></label><h3>Last Name:</h3>
+        <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+       </li>
+	   
+	   <li>
+		<label for="email"></label><h3>Email:</h3>
+		<input type="email" id="email" name="emailaddress" placeholder="Email address">
+		</li>
+		
+		<li>
+		<label for="companyname"></label><h3>Company Name:</h3>
+		<input type="text" id="companyname" name="company" placeholder="Company Name">
+        </li>
+		
+		<li>	
+		<label for="message"></label><h3>Message</h3>
+		<textarea id="message" name="message" placeholder="Write Something" style="height:100px">
+        </textarea>
+		</li>
+		</ul>
+<br>
+<p><button type="submit">Submit</button></p> 
+<br>
+<button type="reset" value="reset">Reset</button>  
+<br>
+
+</fieldset>
+</form>
+</section>
+</article>
+<br>
+</main>
+
+<!-- Footer -->
+
+
+
+<footer> 
+
+<article class="container4">
+<section class="column1">
+<h4>Customer Service</h4>
+<p><a href="contactus.html">Contact Us</a></p>
+<p><a href="#">Frequently Asked Questions</a></p>
+</section>
+
+<section class="column2" >
+<h4>Our Products </h4>
+<p><a href="recipes.html">Recipes</a></p>
+<p><a href="#">Terms and Conditions</a></p>
+</section>
+
+<section class="column3" >
+<h4>About Us</h4>
+<p><a href="about.html">About us</a></p>
+<p><a href="#">Security and Privacy policies</a></p>
+</section>
+
+<section class="column4">
+<h4>Connect</h4>
+
+<p><a href=""> <img src="images/z1.jpg" alt="facebook" >
+<img src="images/z2.jpg" alt="twitter" ></a></p>
+   
+</section>
+
+</article>
+
+</footer>
+
+</div>
+</body>
+</html>
